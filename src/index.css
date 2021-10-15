@@ -1,0 +1,101 @@
+CSS RESET BY MYE WEB
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a{
+  all: unset;
+}
+a:hover{
+    cursor: pointer;
+}
+
+
+/*  */
+/*  Start of the fun  */
+/*  */
+
+html {
+    /* min-height: 120vh; */
+    height: -webkit-fill-available;
+}
+
+body {
+    min-height: 100%;
+    min-height: -webkit-fill-available;
+    min-width: 100%;
+    min-width: -webkit-fill-available;
+
+    background: no-repeat;
+    background: radial-gradient(
+        ellipse at bottom, 
+        #102133 -10%, 
+        #090a0f 60%
+        );
+    overflow: hidden;
+    color: white;
+}
+
+.content {
+	user-select: none;
+    height: 100vh;
+    /* min-height: -webkit-fill-available; */
+    width: 100vw;
+
+    /* box-sizing: border-box; */
+    /* border: 2px solid brown; */
+}
+.snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(#ffffff, #ffffff);
+    border-radius: 50%;
+    filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+    z-index: -1;
+    border-top: .5px solid #15F4EE;
+    border-bottom: 6px double #15F4EE;
+    border-left: 3px solid #15F4EE;
+    border-right: 3px solid #15F4EE;
+    opacity: .0;
+}

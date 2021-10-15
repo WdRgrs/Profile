@@ -1,0 +1,23 @@
+colors{
+  color:   #15F4EE;
+  color:   #646EFC;
+  color:   #FC646E;
+  color:   #FCF264;
+
+  color:   #64FC8D;
+  color:   #64A1FC;
+}
+
+@media (max-width: 799px)
+@media (min-width: 800px)
+@media (max-width: 999px) and (orientation: portrait)
+@media (min-width: 1000px) and (orientation: portrait)
+@media (max-width: 999px) and (orientation: landscape)
+@media (min-width: 1000px) and (orientation: landscape)
+
+
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Fredericka the Great', cursive;

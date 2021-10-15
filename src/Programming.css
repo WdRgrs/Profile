@@ -1,0 +1,186 @@
+colors{
+    color:   #15F4EE;
+    color:   #646EFC;
+    color:   #FC646E;
+    color:   #FCF264;
+  
+    color:   #64FC8D;
+    color:   #64A1FC;
+  }
+  
+.web{
+    height: 100%;
+    /* border: 2px solid red; */
+    padding: 5vh 0 0 0;
+    box-sizing: border-box;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #85FFFF;
+    text-decoration: underline;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid #85FFFF;
+    box-shadow: 0 0 1.3em .01rem #85FFFF;
+}
+
+@media (min-width: 800px){
+    .web-container{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        text-align: center;
+
+        min-width: 700px;
+        width: 60%;
+        height: 85%;
+        margin: auto;
+        padding: 2.5vh 0 0 0;
+
+        
+        border-radius: 15px;
+        background-color: #0b0b1b96;        
+        border-left: 5px solid #646efc75;
+        border-right: 5px solid #646efc75;
+    
+    }
+    #web-title{
+        padding: 1vh 0;
+        margin: .11em auto;
+
+        font-family: 'Cinzel', serif;
+        font-size: calc(2.5vh + 2.5vh);
+        
+        color: #fc646ef3;
+        background-image: linear-gradient(to right, 
+            #85ffff00,
+            #646efc80, 
+            #85ffff00 
+        );
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 80% 3px;
+
+        /* border: 2px solid red; */
+    }
+    .btn-group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 100%;
+        height: 9vh;
+        margin: 3vh auto;
+
+        font-size: 1.5em;
+
+        color: #85FFFF;
+        
+        /* border: 2px solid red */
+    }
+    .btn{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        height: calc(5px + 2vh + 2vw);
+        width: calc(5px + 6vh + 6vw);
+        margin: 0 30px;
+        
+        font-family: 'Cinzel', serif;
+        font-size: calc(2px + 1vh + 1vw);
+        
+        color: #82F9FA;
+        background-color: #82f8fa0a;
+        
+        border: 1.5px solid #85ffff6c;
+        box-shadow: 0 0 .23em .1rem #85ffff6c;
+        
+        transition: 1s;
+    }
+        
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 799px) {
+    .web-container{
+        text-align: center;
+        position: absolute;
+        top: 50%;  
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        /* min-height: 650px; */
+        /* min-width: 50em; */
+        width: 90vw;
+        height: 90vh;
+        margin: 0 auto;
+        /* padding-top: 5vh; */
+        border-radius: 15px;
+        background-color: #0b0b1b96;        
+        border-left: 5px solid #646efc75;
+        border-right: 5px solid #646efc75;
+    }
+    #web-title{
+        font-family: 'Cinzel', serif;
+        font-size: 1.5em;
+        color: #fc646ef3;
+        padding: 0 0 5px 0;
+        margin: auto;
+        /* text-decoration: underline; */
+        background-image: linear-gradient(to right, 
+        #85ffff00,
+        #646efc80, 
+        #85ffff00
+        );
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 80% 3px;
+        /* border: 2px solid red; */
+    }
+    .btn-group{
+        display: flex;
+        font-size: 1em;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        height: 10%;
+        margin: auto;
+        color: #85FFFF;
+        
+        /* border: 2px solid red */
+    }
+    .btn{
+        display: flex;
+        font-size: 1em;
+        /* height: 2.5em; */
+        justify-content: space-evenly;
+        align-items: center;
+        width: 6.5em;
+        margin: 10px;
+        font-family: 'Cinzel', serif;
+        background-color: transparent;
+        color: #82F9FA;
+        transition: 1s;
+        border: 1.5px solid white;
+    }
+    .web-container{
+        /* width: 100vw; */
+        height: 80vh;
+        overflow: auto;
+        /* border: 2px solid red; */
+
+    }
+}
